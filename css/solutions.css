@@ -53,3 +53,14 @@
 .ex-5-square:active{
     scale: 0.5;
 }
+
+/*ex 6*/
+
+.ex-6-img{
+    transition: filter;
+}
+
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
+
