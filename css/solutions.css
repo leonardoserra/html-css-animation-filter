@@ -67,10 +67,20 @@
 /*ex 7*/
 
 .ex-7-img{
-    transition: filter 5s, border-radius 1s;
+    transition: filter 5s;
 }
 
 .ex-7-img:hover{
-    filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg) drop-shadow(16px 16px 10px rgb(55, 149, 203));
+}
+
+/*ex 8*/
+
+.ex-8-img{
+    transition: filter 2s, border-radius 5s;
+}
+
+.ex-8-img:hover{
+    filter: hue-rotate(360deg) drop-shadow(16px 16px 10px rgb(111, 0, 255));
     border-radius: 25%;
 }
