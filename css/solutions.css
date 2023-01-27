@@ -193,7 +193,7 @@
 
 .ex-13-top-white {
     animation-name: aroundCorner;
-    animation-timing-function: ease;
+    animation-timing-function: linear;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     /* border: 1px solid red; */
@@ -201,7 +201,7 @@
 
 .ex-13-bottom-white {
     animation-name: aroundCornerReverse;
-    animation-timing-function: ease;
+    animation-timing-function: linear;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
