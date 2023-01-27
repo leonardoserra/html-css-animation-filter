@@ -141,3 +141,50 @@
         transform: rotate(0);
     }
 }
+
+
+/*ex 12*/
+
+.ex-12-top-white, .ex-12-bottom-white {
+    animation-name: pingPong;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.ex-12-bottom-white {
+    animation-name: pingPongReverse;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pingPong {
+    0%{
+        left:0;
+    }
+
+    50%{
+        left:calc(100% - 60px);
+    }
+
+    100%{
+        left: 0;
+    }
+    
+}
+
+@keyframes pingPongReverse {
+    0%{
+        left:calc(100% - 60px);
+    }
+
+    50%{
+        left: 0;
+    }
+
+    100%{
+        left:calc(100% - 60px);
+    }
+    
+}
