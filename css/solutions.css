@@ -225,15 +225,18 @@
 
 @keyframes aroundCornerReverse {
     0%{
-        left:calc(100% - 30px);
+        bottom: -19px;
+        right: 0;
     }
 
     50%{
-        left: 0;
+        bottom: -19px;
+        right: calc(100% - 39px);
     }
 
     100%{
-        left:calc(100% - 30px);
+        bottom:100%;
+        right: calc(100% - 39px);
     }
     
 }
